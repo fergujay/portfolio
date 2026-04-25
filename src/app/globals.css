@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #04060d;
+  --foreground: #f4f4fb;
+  --muted: #9196a8;
+  --purple: #7630fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(980px 620px at 17% 26%, rgba(126, 48, 255, 0.5), transparent 72%),
+    radial-gradient(900px 580px at 87% 44%, rgba(0, 198, 255, 0.23), transparent 73%),
+    var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(23, 23, 23, 0.12);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.gradient-text {
+  background: linear-gradient(95deg, #df8cff 3%, #b376ff 47%, #6ec9ff 94%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.icon-btn {
+  display: inline-flex;
+  height: 2.75rem;
+  width: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: opacity 0.2s ease;
+}
+
+.icon-btn:hover {
+  opacity: 0.88;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  min-height: 246px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 14px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.09);
 }
