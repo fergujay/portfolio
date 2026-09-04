@@ -65,7 +65,7 @@ export default function Hero() {
             className="text-xs tracking-widest uppercase mb-8"
             style={{ color: "var(--text-muted)" }}
           >
-            Belgrade, Serbia · Front-end · 7+ Years
+            Belgrade, Serbia · Front-end · 9 Years
           </p>
           <h1
             className="font-bold leading-none tracking-tighter"
@@ -130,7 +130,10 @@ export default function Hero() {
       </div>
 
       {/* Tech stack marquee */}
-      <div className="mt-16 overflow-hidden" style={{ borderTop: "1px solid var(--border)" }}>
+      <div
+        className="mt-16 overflow-hidden"
+        style={{ borderTop: "1px solid var(--border)" }}
+      >
         <div className="pt-6 flex items-center gap-3">
           <span
             className="text-xs tracking-widest uppercase shrink-0 mr-4"
@@ -147,7 +150,10 @@ export default function Hero() {
                   style={{ color: "var(--text-muted)" }}
                 >
                   {tech}
-                  <span className="ml-6" style={{ color: "var(--border-hover)" }}>
+                  <span
+                    className="ml-6"
+                    style={{ color: "var(--border-hover)" }}
+                  >
                     ·
                   </span>
                 </span>
