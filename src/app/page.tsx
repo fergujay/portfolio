@@ -37,7 +37,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-7 text-center text-[1.95rem] text-[var(--muted)] sm:text-[2rem]">
-          Software Developer • React • TypeScript • 7+ Years
+          Software Developer • React • TypeScript • 9 Years
         </p>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-2.5">

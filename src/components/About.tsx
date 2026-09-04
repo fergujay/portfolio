@@ -89,7 +89,7 @@ export default function About() {
               className="text-lg leading-relaxed mb-6"
               style={{ color: "var(--foreground)" }}
             >
-              I'm a front-end developer with 7+ years of experience building
+              I'm a front-end developer with 9 years of experience building
               products used by millions. I work across the full front-end stack
               — from pixel-level UI to architecture decisions to developer
               tooling.
@@ -173,7 +173,10 @@ export default function About() {
                       job.company
                     )}
                   </p>
-                  <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
+                  <p
+                    className="text-sm"
+                    style={{ color: "var(--text-secondary)" }}
+                  >
                     {job.role}
                   </p>
                   <p
@@ -190,7 +193,10 @@ export default function About() {
                       className="text-sm leading-relaxed flex gap-3"
                       style={{ color: "var(--text-secondary)" }}
                     >
-                      <span style={{ color: "var(--text-muted)" }} className="shrink-0 mt-0.5">
+                      <span
+                        style={{ color: "var(--text-muted)" }}
+                        className="shrink-0 mt-0.5"
+                      >
                         —
                       </span>
                       {highlight}
