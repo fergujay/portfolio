@@ -11,13 +11,19 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Daniil Kovtun — Software Developer",
   description:
-    "Software Developer with 7+ years of experience. Specialising in React, TypeScript, and modern front-end architecture.",
-  keywords: ["Software Developer", "React", "TypeScript", "Front-end", "Belgrade"],
+    "Software Developer with 9 years of experience. Specialising in React, TypeScript, and modern front-end architecture.",
+  keywords: [
+    "Software Developer",
+    "React",
+    "TypeScript",
+    "Front-end",
+    "Belgrade",
+  ],
   authors: [{ name: "Daniil Kovtun" }],
   openGraph: {
     title: "Daniil Kovtun — Software Developer",
     description:
-      "Software Developer with 7+ years of experience. Specialising in React, TypeScript, and modern front-end architecture.",
+      "Software Developer with 9 years of experience. Specialising in React, TypeScript, and modern front-end architecture.",
     type: "website",
   },
 };
